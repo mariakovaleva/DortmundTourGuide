@@ -1,7 +1,47 @@
 <resources>
     <string name="app_name">Dortmund Tour Guide</string>
-    <string name="category_bars">Bars</string>
-    <string name="category_clubs">Clubs</string>
-    <string name="category_restaurants">Restaurants</string>
-    <string name="category_parks">Parks</string>
+    <string name="category_bars">Drink</string>
+    <string name="category_clubs">Dance</string>
+    <string name="category_restaurants">Eat</string>
+    <string name="category_parks">Rest</string>
+
+    <string name="bar_title_linie_403">Linie 403</string>
+    <string name="bar_content_linie_403">A cozy bar in an old tram</string>
+    <string name="bar_title_marlene">Marlene bar</string>
+    <string name="bar_content_marlene">Formerly known as "Red Marlene" for its glamorous and energetic travesty performances, the bar has retained its unusual charm
+    </string>
+    <string name="bar_title_domicil">Domicil</string>
+    <string name="bar_content_domicil">Domicil is a venue for jazz and contemporary music that has one of the best classic cocktail bars in the Ruhr area
+    </string>
+
+    <string name="club_title_daddy">Daddy Blatzheim</string>
+    <string name="club_content_daddy">A former museum, transformed into a multifunctional club and event venue
+    </string>
+    <string name="club_title_spirit">Spirit</string>
+    <string name="club_content_spirit">Spirit has been organizing iconic metal evenings in the Brückstraßenviertel since 1989
+    </string>
+    <string name="club_title_burgtorclub">Burgtorclub</string>
+    <string name="club_content_burgtorclub">The scene for gays / lesbians, travesty and much more
+    </string>
+
+    <string name="restaurant_title_depothek">Depothek</string>
+    <string name="restaurant_content_depothek">Nice modern restaurant with the Mediterranean beer garden open on summer evenings
+    </string>
+    <string name="restaurant_title_suppenfabrik">Suppenfabrik</string>
+    <string name="restaurant_content_suppenfabrik">Suppenfabrik offers a variety of the best soups of the world
+    </string>
+    <string name="restaurant_title_hohoffs">Hohoffs 800°</string>
+    <string name="restaurant_content_hohoffs">In Hohoffs 800°, there is a huge variety of stirred and cooked beef, chicken and fish variations from at least three continents
+    </string>
+
+    <string name="park_title_westpark">Westpark</string>
+    <string name="park_content_westpark">In Westpark, the young people meet for barbecues, drinking beer and just hanging out
+    </string>
+    <string name="park_title_westfalenpark">Westfalenpark</string>
+    <string name="park_content_westfalenpark">Westfalenpark has a variety of attractions, including a rose garden, the Florian tower and a cable car
+    </string>
+    <string name="park_title_rombergpark">Rombergpark</string>
+    <string name="park_content_rombergpark">In Rombergpark, there are a variety of different plant species and many quiet corners where you can really make yourself comfortable
+    </string>
+
 </resources>

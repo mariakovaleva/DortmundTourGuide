@@ -1,23 +1,26 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">#E60005</item>
-        <item name="colorPrimaryDark">#B71C1C</item>
-        <item name="colorAccent">#FDCA00</item>
-    </style>
-
     <style name="CategoryTab" parent="Widget.Design.TabLayout">
         <item name="tabIndicatorColor">#FDCA00</item>
         <item name="tabSelectedTextColor">#010100</item>
         <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
-        <item name="android:background">#E60005</item>
+        <item name="android:background">@color/colorPrimary</item>
     </style>
 
     <!-- Text appearance style for a category tab -->
     <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
         <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TitleTextAppearance">
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ContentTextAppearance">
+        <item name="android:fontFamily">@font/tajawal_light</item>
+        <item name="android:gravity">center</item>
     </style>
 
 </resources>

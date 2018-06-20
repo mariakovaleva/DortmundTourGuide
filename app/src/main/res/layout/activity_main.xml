@@ -6,18 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="0dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/Theme.AppCompat.Light" />
+
     <android.support.design.widget.TabLayout
         android:id="@+id/sliding_tabs"
+        style="@style/CategoryTab"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/CategoryTab"
-        app:tabMode="fixed"
-        />
+        app:layout_constraintTop_toBottomOf="@id/my_toolbar"
+        app:tabMode="fixed" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" />
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/sliding_tabs" />
 
 </android.support.constraint.ConstraintLayout>
